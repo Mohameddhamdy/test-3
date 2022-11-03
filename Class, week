@@ -1,0 +1,19 @@
+class Node:
+   def__init__(self, data val=None):
+      self.data=data val
+      self.next=None
+class slinkedlist:
+      def__init__(self):
+          self.head val=None
+      def  list print (self):
+           printval =self.head val
+           while printval is not None:
+              print (printval.dataval)
+              printval=printval.nextval
+list1=slinkedlist()
+list1.headval=Node("mon")
+  e2=Node("tue")
+  e3=Node("wed")
+  list1.headval.next=e2
+  e2.next=e3
+  list1.listprint()
